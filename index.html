@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Коледж</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-  <a class="navbar-brand" href="#"><img id="logo" src="img/Pnu_logo.png" alt="ПНУ"></a>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">  
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html"><img id="logo" src="img/Pnu_logo.png" alt="ПНУ"></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link text-warning" href="index.html">Головна сторінка <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
@@ -38,6 +57,7 @@
         <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
           <a class="dropdown-item text-secondary" href="schedule.html">Розклад</a>
           <a class="dropdown-item text-secondary" href="rating.html">Рейтинг</a>
+          <a class="dropdown-item text-secondary" href="profkom.html">Профком</a>
         </div>
       </li>
        <li class="nav-item dropdown active">
@@ -45,7 +65,7 @@
           Абітурієнтам
         </a>
         <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item text-secondary" href="#">шось</a>
+          <a class="dropdown-item text-secondary" href="exams.html">Вступні іспити</a>
           <a class="dropdown-item text-secondary" href="/">ше шось</a>
         </div>
       </li>
@@ -59,10 +79,76 @@
     </form>
   </div>
 </nav>
-<div class="container bg-danger">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, impedit excepturi. Ipsam modi blanditiis tenetur deserunt culpa eum, voluptatem ducimus dolor rerum provident nisi amet delectus, aliquam quam quos quasi.
-</div>
-<footer class="page-footer bg-secondary text-white font-small mdb-color-darl darken-3 pt-4">
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">Стати студентом дуже просто! Долучайся до нас і рухайся до своєї мрії!</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/student.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Студентське життя</h2>
+            <p class="lead mb-0">Воно тернисте та непередбачуване! Водночас ми з гордістю говоримо, що наші студенти є активними та відповідальними громадянами!</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/prof.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Хороша освіта для молодих людей!</h2>
+            <p class="lead mb-0">Саме у нас ви можете здобути професію своєї мрії та розвиватись у ній! Тут ви можете стати як адвокатом, так і передовим програмістом!</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/step.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Впевнений крок в майбутнє</h2>
+            <p class="lead mb-0">Саме у нашому коледжі студенти захоплені своєю справою. Їхні очі горять, а наш педагогічний склад розвиває потенціал кожного зі студентів. Навчання у нас сьогодні - впевненість в тому, що студент
+    стане професіоналом своєї справи.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">Наші передові спеціальності</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
+              <h5>Прикладна математика</h5>
+              <p class="font-weight-light mb-0">"Навчись реалізовувати важкі алгоритми і стань новим Білом Ґейтсом!"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/design.jpg" alt="">
+              <h5>Дизайн</h5>
+              <p class="font-weight-light mb-0">"Ти творча людина? Ти закоханий в правильний дизайн і любиш красиві речі? Ти природжений дизайнер!"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/teacher.jpg" alt="">
+              <h5>Початкова освіта</h5>
+              <p class="font-weight-light mb-0">"Стань вчителем та формуй нові особистості! Саме у твоїх руках майбутнє нації!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <footer class="page-footer bg-primary text-white font-small mdb-color-darl darken-3 pt-4">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-md-6">
